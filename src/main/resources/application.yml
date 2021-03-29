@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+kafka:
+  bootstrapAddress: localhost:9092
+
+hazelcast:
+  writeDelay: 4
+  writeBatchSize: 40
+  asyncBackupCount: 1
+  syncBackupCount: 0
+  maxIdleSeconds: 0

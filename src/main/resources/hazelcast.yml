@@ -1,0 +1,11 @@
+hazelcast:
+  clent:
+    statistics:
+      enabled: true
+  network:
+    join:
+      multicast:
+        enabled: true
+  management-center:
+    enabled: true
+    url: http://localhost:8099/hazelcast-mancenter/
